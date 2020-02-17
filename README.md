@@ -12,10 +12,10 @@ use Text::Center;
 say 'Raku'.&center; # Center in a 79 columns by default, space padded by default
 #                                      Raku
 
-say 'Raku'.&center(20); # Center in a 20 columns, space padded
+say 'Raku'.&center(20); # Center in 20 columns, space padded
 #        Raku
 
-say 'Raku'.&center(30, :fill('=')); # Center in a 30 columns, equal sign padded
+say 'Raku'.&center(30, :fill('=')); # Center in 30 columns, equal sign padded
 #============ Raku ============
 ```
 
