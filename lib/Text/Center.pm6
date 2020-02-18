@@ -1,10 +1,11 @@
 use v6.c;
-unit module Text::Center:ver<0.0.1>;
+unit module Text::Center:ver<0.0.2>;
 
 sub center ($text, Int $width = 79, :$fill = ' ') is export {
     my $pad = $width - 2 - $text.Str.chars;
-    my $space = $pad < 1 ?? '' !! ' ';
-    $fill x ($pad / 2).ceiling ~ $space ~ $text ~ $space ~ $fill x ($pad / 2).floor;
+    my $space = $pad < 0 ?? '' !! ' ';
+    my $centered = $fill x ($pad / 2).ceiling ~ $space ~ $text ~ $space ~ $fill x ($pad / 2).floor;
+    $centered.chars < $width ?? ("$centered ") !! $centered
 }
 
 =begin pod

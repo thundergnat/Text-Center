@@ -15,5 +15,5 @@
   "source-url" : "git://github.com/thundergnat/Text-Center.git",
   "tags" : [ "Text", "Center" ],
   "test-depends" : [ ],
-  "version" : "0.0.1"
+  "version" : "0.0.2"
 }
