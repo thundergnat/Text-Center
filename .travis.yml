@@ -9,4 +9,3 @@ install:
   - zef install --deps-only --/test .
 script:
   - PERL6LIB=$PWD/lib prove -e perl6 -vr --ext .t --ext .t6 --ext .rakutest t
-sudo: false
