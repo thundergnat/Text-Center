@@ -14,6 +14,8 @@ sub center ($text, Int $width = 79, :$fill = ' ') is export {
 
 Text::Center  - Easy centering of text fields
 
+[![Build Status](https://travis-ci.org/thundergnat/Text-Center.svg?branch=master)](https://travis-ci.org/thundergnat/Text-Center)
+
 =head1 SYNOPSIS
 
 =begin code :lang<perl6>

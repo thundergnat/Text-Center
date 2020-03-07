@@ -3,6 +3,8 @@ NAME
 
 Text::Center - Easy centering of text fields
 
+[![Build Status](https://travis-ci.org/thundergnat/Text-Center.svg?branch=master)](https://travis-ci.org/thundergnat/Text-Center)
+
 SYNOPSIS
 ========
 
