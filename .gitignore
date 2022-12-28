@@ -1,3 +1,2 @@
-update.sh
-/lib/.precomp
-.precomp
+.precomp/
+/Text-Center-*

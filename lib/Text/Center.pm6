@@ -1,5 +1,4 @@
-use v6.c;
-unit module Text::Center:ver<0.0.2>;
+unit module Text::Center:ver<0.0.3>:auth<zef:thundergnat>;
 
 sub center ($text, Int $width = 79, :$fill = ' ') is export {
     my $pad = $width - 2 - $text.Str.chars;
@@ -14,11 +13,9 @@ sub center ($text, Int $width = 79, :$fill = ' ') is export {
 
 Text::Center  - Easy centering of text fields
 
-[![Build Status](https://travis-ci.org/thundergnat/Text-Center.svg?branch=master)](https://travis-ci.org/thundergnat/Text-Center)
-
 =head1 SYNOPSIS
 
-=begin code :lang<perl6>
+=begin code :lang<raku>
 
 use Text::Center;
 
@@ -42,7 +39,7 @@ the field width. In that case, just returns the text unaltered.
 
 Exports a single subroutine:
 
-    center( $text, $width = 79, :fill(' ') )
+C<center( $text, $width = 79, :fill(' ') )>
 
 where
 

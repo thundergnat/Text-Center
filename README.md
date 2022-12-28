@@ -1,14 +1,14 @@
+[![Actions Status](https://github.com/thundergnat/Text-Center/actions/workflows/test.yml/badge.svg)](https://github.com/thundergnat/Text-Center/actions)
+
 NAME
 ====
 
 Text::Center - Easy centering of text fields
 
-[![Build Status](https://travis-ci.org/thundergnat/Text-Center.svg?branch=master)](https://travis-ci.org/thundergnat/Text-Center)
-
 SYNOPSIS
 ========
 
-```perl6
+```raku
 use Text::Center;
 
 say 'Raku'.&center; # Center in a 79 columns by default, space padded by default
@@ -28,7 +28,7 @@ Easily center text in a configurable field width (default 79). Pad with spaces b
 
 Exports a single subroutine:
 
-    center( $text, $width = 79, :fill(' ') )
+`center( $text, $width = 79, :fill(' ') )`
 
 where
 
