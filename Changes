@@ -1,6 +1,8 @@
 Revision history for Text-Center
 
 {{$NEXT}}
+
+0.0.3  2022-12-28T12:15:32-05:00
     - Migrate to fez ecosystem
 
 0.0.2  - Remove deprecated flag
